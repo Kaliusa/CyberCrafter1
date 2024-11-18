@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cyber Crafter IT Company</title>
+
+    <!-- Add Font Awesome for WhatsApp icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Add Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Custom Styles */
+        body {
+            background-color: #121212;
+            color: #e6e6e6;
+        }
+
+        .team-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+
+       /* Container to keep the content centered and properly spaced */
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/* Row to hold the columns */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service, .team-member {
+            background: #1a1a1a;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0px 10px 30px rgba(0, 210, 255, 0.3);
+            margin-bottom: 2rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .service:hover, .team-member:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 15px 50px rgba(0, 210, 255, 0.5);
+        }
+        .social-media a {
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: #fff;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        .wave-effect {
+    font-size: 3rem;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    animation: wave 2s infinite linear;
+}
+
+@keyframes wave {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+        .scroll-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #00d2ff;
+            color: #121212;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            cursor: pointer;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-primary text-white text-center py-5">
+        <h1 class="wave-effect">Cyber Crafter IT Company</h1>
+
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#team">Our Team</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="services" class="py-5 text-center">
+        <h2 class="display-4 text-white mb-4">Our Services</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="service">
+                        <h3 class="text-info">Web Development</h3>
+                        <p>We provide high-quality web development services tailored to your business needs.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="service">
+                        <h3 class="text-info">SEO</h3>
+                        <p>Our expert SEO team ensures your website ranks at the top of search results.</p>
+                    </div>
+
+
+
+
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="service">
+                        <h3 class="text-info">Graphic Designing</h3>
+                        <p>Creative and innovative graphic designs to represent your brand visually.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="service">
+                        <h3 class="text-info">Video Editing</h3>
+                        <p>Professional video editing services to enhance your visual content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-member">
+            <img class="team-photo" src="image.1.jpg" alt="Team Member 1">
+            <h3>Hashir Ali (CEO)</h3>
+            <p><b>Hashir Ali is an educated and highly skilled professional. With a strong background in freelancing and business management, he successfully handles all aspects of his operations, ensuring the smooth running of every project. Working closely alongside Hassan Raza, Hashir combines his expertise in leadership and digital freelancing to drive growth and innovation. Together, they form a dynamic team, committed to excellence and achieving success in the ever-evolving world of freelancing and business.</b></p>
+        </div>
+        <div class="team-member">
+            <img class="team-photo" src="img0.jpg" alt="Team Member 2">
+            <h3>Hassan Raza (Chief Operating Officer)</h3>
+            <p><b>Hassan Raza is a skilled web developer, cybersecurity expert, and ethical hacker with a passion for creating secure and efficient digital solutions. With expertise in web development technologies from NITSEP (National Information Technology Education and Training) and ethical hacking from ehunar.org, a Government of Pakistan IT department, Hassan is dedicated to building websites that are both user-friendly and resilient against cyber threats. As an ethical hacker, he works proactively to identify vulnerabilities, ensuring the safety and protection of online systems. His commitment to staying updated with the latest security trends allows him to effectively tackle the dynamic challenges of the digital world, backed by various certifications from different institutes.</b></p>
+        </div>
+        <div class="team-member">
+            <img class="team-photo" src="img9.jpg" alt="Team Member 6">
+            <h3>Danish Khan (Chief Technology Officer)</h3>
+            <p><b>Danish Khan is an innovative web developer with a passion for coding and designing interactive websites. Having completed his training from DigiSkills and private institutes, he specializes in front-end and back-end development. Danish is skilled in multiple programming languages and frameworks, allowing him to build dynamic and user-friendly websites. His commitment to staying updated with the latest trends in web development ensures he delivers projects that meet modern standards of quality and performance.</b></p>
+        </div>
+        <div class="team-member">
+            <img class="team-photo" src="img8.jpg" alt="Team Member 4">
+            <h3>Zeeshan Ali</h3>
+            <p><b>Zeeshan Ali is an expert SEO specialist for websites with his own offices in Pakistan. Approved by the Government of Pakistan, he focuses on optimizing websites to enhance their visibility and performance on search engines. While not a developer, Zeeshan leverages his expertise in SEO strategies to drive organic traffic, improve search rankings, and ensure that websites reach their full potential in the digital space.</b></p>
+        </div>
+        <div class="team-member">
+            <img class="team-photo" src="image2.jpg" alt="Team Member 5">
+            <h3>Khubaib Ali</h3>
+            <p><b>Khubaib is a skilled video editor who has completed his courses from DigiSkills and various other government institutes. With a strong understanding of video editing techniques and creative software, he produces high-quality, engaging videos that captivate audiences. Khubaib is dedicated to continually improving his skills and staying updated with the latest trends to ensure his videos meet the highest standards of creativity and impact.</b></p>
+        </div>
+        <div class="team-member">
+            <img class="team-photo" src="img5.avif" alt="Team Member 3">
+            <h3>Hijab Fatima</h3>
+            <p><b>Hijab Fatima is a talented graphic designer who has completed her courses from DigiSkills and various other government institutes. With a strong foundation in design principles and creative software, she brings her artistic vision to life through visually compelling graphics. Hijab is committed to continually enhancing her skills, staying updated with the latest design trends and techniques to deliver high-quality work for every project she undertakes.</b></p>
+        </div>
+    </section>
+    
+
+    <section id="contact" class="py-5 text-center">
+        <h2 class="display-4 text-white mb-4">Contact Us</h2>
+        <form class="container">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" class="form-control mb-3" placeholder="Enter your name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" class="form-control mb-3" placeholder="Enter your email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" class="form-control mb-3" placeholder="Enter your message" rows="5" required></textarea>
+            <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+    </section>
+
+    <footer class="bg-dark text-center text-white py-4">
+        <p>&copy; 2024 Cyber Crafter IT Company</p>
+        
+        
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/+923039597498" target="_blank">
+        <button class="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+        </button>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" onclick="scrollToTop()">↑</button>
+
+    <!-- Add Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // Scroll to Top Button
+        window.onscroll = function() {
+            var scrollBtn = document.querySelector('.scroll-to-top');
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                scrollBtn.style.display = "block";
+            } else {
+                scrollBtn.style.display = "none";
+            }
+        }
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+</html>
